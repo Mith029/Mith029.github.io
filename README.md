@@ -4,7 +4,7 @@ I have curated a diverse portfolio of personal and academic programming projects
 
 # Table of Content
 
-1.	[Airplane Safety Performance (Delta Airlines)](Airplane_Safety_Performance_(Delta_Airlines)/)
+1.	[Airplane Safety Performance (Delta Airlines)](Airplane Safety Performance (Delta Airlines)/)
 2.	[Attributes Associated with Cardiovascular Disease](Attributes_Associated_with_Cardiovascular_Disease/)
 3.	[Blackjack](Blackjack/)
 4.	[Botnet Detection](Botnet_Detection/)
