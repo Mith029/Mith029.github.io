@@ -4,8 +4,8 @@ I have curated a diverse portfolio of personal and academic programming projects
 
 # Table of Content
 
-1.	[Airplane Safety Performance (Delta Airlines)] (# Airplane Safety Performance (Delta Airlines))
-2.	[Attributes Associated with Cardiovascular Disease]
+1.	[Airplane Safety Performance (Delta Airlines)] (#Airplane-Safety-Performance-(Delta Airlines))
+2.	[Attributes Associated with Cardiovascular Disease] (#Attributes-Associated-with-Cardiovascular-Disease)
 3.	[Blackjack]
 4.	[Botnet Detection]
 5.	[Consumer Prediction]
@@ -14,8 +14,6 @@ I have curated a diverse portfolio of personal and academic programming projects
 8.	[The Impact of Air pollution]
 9.	[Tic Tac Toe]
 10.	[Video Games Recommendation System]
-
-# Project Description 
 
 ### 1.	Airplane Safety Performance (Delta Airlines)
 Evaluating Delta Air Lines’s safety performance and comparing with motor depict the reliability of Delta’s air carriers using data visualization and relevant statistics.
