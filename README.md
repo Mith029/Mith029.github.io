@@ -4,10 +4,10 @@ I have curated a diverse portfolio of personal and academic programming projects
 
 # Table of Content
 
-1.	[Airplane/Safety/Performance/(Delta/Airlines)] (#Airplane-Safety-Performance-(Delta-Airlines))
-2.	[Attributes/Associated/with/Cardiovascular/Disease] (#Attributes-Associated-with-Cardiovascular-Disease)
+1.	[Airplane Safety Performance (Delta Airlines)] (#Airplane-Safety-Performance-(Delta-Airlines))
+2.	[Attributes Associated with Cardiovascular Disease] (#Attributes-Associated-with-Cardiovascular-Disease)
 3.	[Blackjack](#Blackjack)
-4.	[Botnet/Detection](#Botnet-Detection)
+4.	[Botnet Detection](#Botnet-Detection)
 5.	[Consumer Prediction]
 6.	[Cryptocurrency]
 7.	[Drowsiness Alert system]
