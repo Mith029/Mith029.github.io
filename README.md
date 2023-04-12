@@ -15,10 +15,10 @@ I have curated a diverse portfolio of personal and academic programming projects
 9.	[Tic Tac Toe](#Tic-Tac-Toe)
 10.	[Video Games Recommendation System](#Video-Games-Recommendation-System)
 
-### 1.	Airplane Safety Performance (Delta Airlines)
+## 1.	Airplane Safety Performance (Delta Airlines)
 Evaluating Delta Air Lines’s safety performance and comparing with motor depict the reliability of Delta’s air carriers using data visualization and relevant statistics.
 
-### 2.	Attributes Associated with Cardiovascular Disease
+## 2.	Attributes Associated with Cardiovascular Disease
 Analyzing several health factors that affect a patient’s risk for heart disease.
 
 ### 3.	Blackjack
