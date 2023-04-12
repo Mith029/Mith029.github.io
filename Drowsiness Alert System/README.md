@@ -31,7 +31,7 @@ You can also download from the following link: https://github.com/italojs/facial
 7. If the person's eyes are closed for over 3 seconds, notifications will be sent to the user's email and phone.
 8. Press x to quit the program.
 
-# How Does It Work
+# How It Works
 The drowsiness alert system works by detecting eye movements using OpenCV and Dlib. It analyzes the position of the person's eyes and determines whether 
 the eyes are open or closed based on the verticle line thickness. If the thickness falls below a certain threshold, the system assumes the person's eyes
 are closed, and if the thickness remains below the threshold for longer than 3 seconds, then it triggers the alarm.
