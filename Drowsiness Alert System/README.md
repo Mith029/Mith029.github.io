@@ -2,7 +2,7 @@
 
 This is a project for creating a basic drowsiness alert system using OpenCV and Dlib. It is designed to send push notifications to users’ emails and phones by detecting a driver getting drowsy while operating a motor vehicle by analyzing their eye movement.
 
-# Requirements
+## Requirements
 Make sure the following packages are installed:
 - OpenCV
 - Dlib
@@ -21,7 +21,7 @@ Steps for setting up phone notification:
 Additionally, please make sure to download dlib's pre-trained model "Shape_Predictor_68_face_landmarks" file is locally available. 
 You can also download from the following link: https://github.com/italojs/facial-landmarks-recognition/blob/master/shape_predictor_68_face_landmarks.dat
 
-# How to Use
+## How to Use
 1. Clone or download the project from GitHub.
 2. Install the required libraries and download the shape predictor file as described in the requirements section.
 3. Open the Drowsiness_alert_system.py file in a IDE or text editor.
@@ -31,12 +31,12 @@ You can also download from the following link: https://github.com/italojs/facial
 7. If the person's eyes are closed for over 3 seconds, notifications will be sent to the user's email and phone.
 8. Press x to quit the program.
 
-# How It Works
+## How It Works
 The drowsiness alert system works by detecting eye movements using OpenCV and Dlib. It analyzes the position of the person's eyes and determines whether 
 the eyes are open or closed based on the verticle line thickness. If the thickness falls below a certain threshold, the system assumes the person's eyes
 are closed, and if the thickness remains below the threshold for longer than 3 seconds, then it triggers the alarm.
 
-# How to Contribute
+## How to Contribute
 If you would like to contribute, please follow these steps:
 
 1. Fork the project on GitHub.
@@ -47,6 +47,6 @@ If you would like to contribute, please follow these steps:
 
 Please ensure that your pull request includes a detailed description of the changes you have made and the reasoning behind them. 
 
-# Author 
+## Author 
 Mithil Patel
 
