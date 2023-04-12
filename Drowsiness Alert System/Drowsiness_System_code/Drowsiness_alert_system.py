@@ -41,8 +41,8 @@ def send_alert():
         smtp_object = smtplib.SMTP('smtp.gmail.com',587)
         smtp_object.ehlo()
         smtp_object.starttls()
-        email = 'tikoo29@gmail.com'
-        password = 'xsiokkqugcolgyzw'
+        email = 'email123@gmail.com'
+        password = 'password'
         smtp_object.login(email,password) # app password, not gmail password 
         
         # Formatting email and then sending it
@@ -62,8 +62,8 @@ def phone_Notifications():
     conn = http.client.HTTPSConnection("api.pushover.net:443")
     
     # Required API tokens
-    app_token = 'as92c1z78p4xexfvdzrjx11pvv8m6z'
-    user_token = 'ubf4nh3pi7v3yv2hex7arwgwucg7c7'
+    app_token = 'app_token'
+    user_token = 'user_token'
     
     # Connecting to API
     conn.request("POST", "/1/messages.json",
