@@ -4,16 +4,16 @@ I have curated a diverse portfolio of personal and academic programming projects
 
 # Table of Content
 
-1.	[Airplane Safety Performance (Delta Airlines)](Airplane Safety Performance (Delta Airlines)/)
-2.	[Attributes Associated with Cardiovascular Disease](Attributes_Associated_with_Cardiovascular_Disease/)
+1.	[Airplane Safety Performance (Delta Airlines)](Airplane&#32;Safety&#32;Performance&#32;(Delta&#32;Airlines)/)
+2.	[Attributes Associated with Cardiovascular Disease](Attributes&#32;Associated&#32;with&#32;Cardiovascular&#32;Disease/)
 3.	[Blackjack](Blackjack/)
-4.	[Botnet Detection](botnet&#32;detection/)
+4.	[Botnet Detection](Botnet&#32;Detection/)
 5.	[Consumer Prediction](Consumer&#32;Prediction/)
 6.	[Cryptocurrency](Cryptocurrency/)
-7.	[Drowsiness Alert system](Drowsiness_Alert_system/)
-8.	[The Impact of Air pollution](The_Impact_of_Air_pollution/)
-9.	[Tic Tac Toe](Tic_Tac_Toe/)
-10.	[Video Games Recommendation System](Video_Games_Recommendation_System/)
+7.	[Drowsiness Alert system](Drowsiness&#32;Alert&#32;system/)
+8.	[The Impact of Air pollution](The&#32;Impact&#32;of&#32;Air&#32;pollution/)
+9.	[Tic Tac Toe](Tic&#32;Tac&#32;Toe/)
+10.	[Video Games Recommendation System](Video&#32;Games&#32;Recommendation&#32;System/)
 
 ## 1.	Airplane Safety Performance (Delta Airlines)
 Evaluating Delta Air Lines’s safety performance and comparing with motor depict the reliability of Delta’s air carriers using data visualization and relevant statistics.
