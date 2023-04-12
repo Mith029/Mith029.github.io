@@ -1,0 +1,113 @@
+from sys import exit
+row3 = ['7','8','9']
+row2 = ['4','5','6']
+row1 = ['1','2','3']
+option = ['x','o']
+
+def display_board(row3, row2, row1):
+    print('Current display:')
+    print ( '[%s]' % ' '.join(map(str, row3)))
+    print ( '[%s]' % ' '.join(map(str, row2)))
+    print ( '[%s]' % ' '.join(map(str, row1)))
+    
+def x_o():
+    
+    prompt = ''
+    player_1 = ''
+    player_2 = ''
+    while prompt not in option:
+        prompt = input("Player 1: please enter x or o: ")
+        if prompt == 'x':
+            player_1 = prompt
+            player_2 = 'o'
+            break
+        elif prompt == 'o':
+            player_1 = prompt
+            player_2 = 'x'
+            break
+        else:
+            continue
+    print(f'Player 1, you are "{player_1}",which means player 2 is "{player_2}".')
+    return player_1, player_2
+
+def position_choice():
+    choice = 'wrong'
+    while choice not in range(1,10):
+        choice = int(input('Please enter from 1-9 where you want to mark: '))
+        if choice not in range(1,10):
+            print('Sorry, invalid choice.') 
+    return choice
+
+def replacement_display(display_board, position_choice, prompt):
+#     rep = 'wrong'
+    rep = prompt
+#     while rep not in option:
+#         rep = input('Type a string (x or o) to place at position')
+    if position_choice in range(1,4):
+            row1.insert(position_choice - 1, rep)
+            row1.pop(position_choice)
+    elif position_choice == 4:
+            row2.insert(position_choice - 4, rep)
+            row2.pop(position_choice - 3)
+    elif position_choice == 5:
+            row2.insert(position_choice - 4, rep)
+            row2.pop(position_choice - 3)
+    elif position_choice == 6:
+            row2.insert(position_choice - 4, rep)
+            row2.pop(position_choice - 3)
+    elif position_choice == 7:
+            row3.insert(position_choice - 7, rep)
+            row3.pop(position_choice - 6)
+    elif position_choice == 8:
+            row3.insert(position_choice - 7, rep)
+            row3.pop(position_choice - 6)
+    elif position_choice == 9:
+            row3.insert(position_choice - 7, rep)
+            row3.pop(position_choice - 6)
+    
+    return display_board(row3, row2, row1)
+
+def resume_play():
+    resume = ''
+    
+    while True:
+        decision = input('would you like to continue playing? Y or N:')
+        if decision == 'Y': 
+            changerResume = True
+            while changerResume:
+                choice = position_choice()
+                replacement_display(display_board, choice, player_2)
+                changerResume = False
+            while not changerResume:
+                choice = position_choice()
+                replacement_display(display_board, choice, player_1)
+                changerResume = True
+        
+        elif decision == 'N':
+            print('Thank you for playing!!')
+            exit()
+            # end the game
+    
+# Displays initital board
+display_board(row3, row2, row1)
+
+print('Player 1 goes first!')
+#Ask user to choice mark
+t_unpack = x_o()
+player_1, player_2 = t_unpack
+#Ask user where to mark and display updated game board
+changer = True
+
+while changer:
+    choice = position_choice()
+    replacement_display(display_board, choice, player_1 )
+    resume_play()
+    changer = False
+
+while not changer:
+    choice = position_choice()
+    replacement_display(display_board, choice, player_2)
+    resume_play()
+    changer = True
+    
+
