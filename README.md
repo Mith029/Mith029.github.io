@@ -8,7 +8,7 @@ I have curated a diverse portfolio of personal and academic programming projects
 2.	[Attributes Associated with Cardiovascular Disease](Attributes_Associated_with_Cardiovascular_Disease/)
 3.	[Blackjack](Blackjack/)
 4.	[Botnet Detection](Botnet_Detection/)
-5.	[Consumer Prediction](Consumer_Prediction/)
+5.	[Consumer Prediction](consumer_prediction/)
 6.	[Cryptocurrency](Cryptocurrency/)
 7.	[Drowsiness Alert system](Drowsiness_Alert_system/)
 8.	[The Impact of Air pollution](The_Impact_of_Air_pollution/)
