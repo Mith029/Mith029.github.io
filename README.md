@@ -24,17 +24,17 @@ Analyzing several health factors that affect a patient’s risk for heart diseas
 ## 3.	Blackjack
 This project is a basic text-based implementation of the popular card game, where the user plays against a computer dealer.
 
-## 4.	Botnet Detection
-A deep learning model capable of detecting and prevent botnets by analyzing time-series data of network traffic and other relevant features.
-
-## 5.	Consumer Prediction
+## 4.	Consumer Prediction
 Formulating python algorithms from a given dataset using machine learning technique to predict the actions of consumers. 
 
-## 6.	Cryptocurrency
+## 5.	Cryptocurrency
 A socket-to-client connection block-chain application that allows users to utilize the service as cryptocurrency and be used to mine and store within a crypto-wallet. 
 
-## 7.	Drowsiness Alert system
+## 6.	Drowsiness Alert system
 A drowsiness alert system designed to send push notifications to users’ emails and phones by detecting a driver getting drowsy while operating a motor vehicle by analyzing their eye movement.
+
+## 7.	Text-Based Emotion Recognition
+The text-based emotion recognition model is designed to identify people’s emotions, attitudes, or sentiments toward a particular goal, such as an individual, an organization, a topic or a product.
 
 ## 8.	The Impact of Air pollution
 Analyzing the impact of Air pollution, primarily focusing on carbon emission and fatality rates, worldwide to dispel the myth revolving around climate change.
