@@ -9,7 +9,7 @@ I have curated a diverse portfolio of personal and academic programming projects
 3.	[Blackjack](Blackjack/)
 4.	[Consumer Prediction](Consumer&#32;Prediction/)
 5.	[Cryptocurrency](Cryptocurrency/)
-6.	[Drowsiness Alert system](Drowsiness&#32Alert&#32System/)
+6.	[Drowsiness Alert system](Drowsiness&#32;Alert&#32;System/)
 7.	[Text-Based Emotion Recognition](Text-Based&#32;Emotion&#32;Recognition/)
 8.	[The Impact of Air pollution](The&#32;Impact&#32;of&#32;Air&#32;pollution/)
 9.	[Tic Tac Toe](Tic&#32;Tac&#32;Toe/)
